@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tramontina</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            text-decoration: none;
+            border: none;
+            outline: none;
+            scroll-behavior: smooth;
+            font-family: 'Times New Roman', Times, serif;
+        }
+
+        #imgbanner {
+            margin-left: 0%;
+            width: 100%;
+        }
+
+        .botao-action {
+
+            background-color: #0c4581;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            font-size: 16px;
+            cursor: pointer;
+            margin-left: 45%;
+            font-size: xx-large;
+            font-family: 'Times New Roman', Times, serif;
+        }
+    </style>
+
+
+
+</head>
+
+<body>
+
+
+
+
+    <header>
+        <div class="logo"><img src="https://http2.mlstatic.com/D_NQ_NP_718958-MLB31174650709_062019-O.jpg" alt=""></div>
+    </header>
+    <hr>
+    <div class="banner">
+        <img id="imgbanner"
+            src="https://www.tramontina.com.br/dw/image/v2/BGTW_PRD/on/demandware.static/-/Library-Sites-TramontinaSharedLibrary/default/dw95563a0d/Banner_home/cam_marco_2022_linha_lyf_desktop.jpg"
+            alt="">
+
+    </div>
+
+    <hr>
+
+    <div>
+        <nav>
+
+            <div> <button class="botao-action"> Nossos Produtos </button></div>
+        </nav>
+    </div>
+    <hr>
+
+</body>
+
+</html>
