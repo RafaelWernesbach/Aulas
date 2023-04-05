@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tramontina</title>
+    <style>
+        * {
+            margin: 7px;
+            padding: 0;
+            box-sizing: border-box;
+            text-decoration: none;
+            border: none;
+            outline: none;
+            scroll-behavior: smooth;
+            font-family: 'Times New Roman', Times, serif;
+        }
+
+        #imgbanner {
+            margin-left: 0%;
+            width: 100%;
+        }
+
+        .botaocaixa {
+            margin-right: 30%;
+        }
+
+        .botaonav {
+            background-color: rgb(9, 42, 104);
+            text-align: center;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            font-size: 12px;
+            cursor: pointer;
+            margin-left: 45%;
+            font-size: xx-large;
+            font-family: 'Times New Roman', Times, serif;
+        }
+
+        .botaomanero {
+            color: rgb(252, 252, 252);
+        }
+
+        .videoimagem {
+            display: flex;
+            justify-content: center;
+        }
+
+        .imagemsec {
+            width: 600;
+            height: 400;
+        }
+
+        .imagempokas {
+            margin-left: 25%;
+        }
+
+        .navbar a {
+            font-size: 1.7rem;
+            color: rgb(255, 255, 255);
+            margin-left: 4rem;
+
+        }
+
+        .extra {
+
+            margin-left: -90%;
+
+        }
+
+        .navbar {
+            background-color: rgb(9, 42, 104);
+            text-align: center;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            font-size: 12px;
+            cursor: pointer;
+            margin-left: 45%;
+            font-size: xx-large;
+            font-family: 'Times New Roman', Times, serif;
+        }
+    </style>
+
+
+
+</head>
+
+<body>
+
+
+
+
+    <header class="cabecalho">
+        <div class="logo"><img src="https://http2.mlstatic.com/D_NQ_NP_718958-MLB31174650709_062019-O.jpg" alt=""></div>
+    </header>
+    <hr>
+    <div class="banner">
+        <img id="imgbanner"
+            src="https://www.tramontina.com.br/dw/image/v2/BGTW_PRD/on/demandware.static/-/Library-Sites-TramontinaSharedLibrary/default/dw95563a0d/Banner_home/cam_marco_2022_linha_lyf_desktop.jpg"
+            alt="">
+
+    </div>
+
+    <hr>
+
+    <div class="botaocaixa">
+        <nav class="botaonav">
+
+            <div> <a href="https://www.tramontina.com.br/colecoes/utensilios-linha-lyf/" class="botaomanero"> Nossos
+                    produtos </a></div>
+        </nav>
+    </div>
+    <hr>
+    <div class="videoimagem">
+        <section class="videobrabo"> <iframe width="650" height="350" src="https://www.youtube.com/embed/vL-GDPD0sDA"
+                frameborder="0" allowfullscreen></iframe></section>
+        <hr>
+        <section class="imgpokas"> <img class="imagemsec"
+                src="https://www.tramontina.com.br/dw/image/v2/BGTW_PRD/on/demandware.static/-/Library-Sites-TramontinaSharedLibrary/default/dw91c56119/Linhas_Especiais/Linha_Lyf/solucao_completa_para_quem_escolher_reutilizar.jpg"
+                alt="" width="600px" height="350px"></section>
+
+
+    </div>
+    <hr>
+    <div class="extra">
+        <nav class="navbar"><a href="#"> Sobre Nós </a>
+            <a href="#"> Contato </a>
+            <a href="#"> Lojas </a>
+        </nav>
+    </div>
+</body>
+
+</html>
