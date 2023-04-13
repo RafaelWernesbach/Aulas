@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+
+        body {
+            margin: 0;
+            padding: 0;
+            border: 0;
+        }
+
+        .topo {
+            background-color: #cbf9ff;
+            margin-bottom: 0;
+        }
+
+        .navbar a {
+            font-size: 1.7rem;
+            color: rgb(231, 218, 218);
+            margin-left: 4rem;
+
+        }
+
+        .cabecalho {
+
+            margin-left: -5%;
+
+        }
+
+        .navbar {
+            margin-top: 0px;
+            background-color: rgba(31, 102, 196, 0.671);
+            text-align: center;
+            border: none;
+            padding: 8px 15px;
+            border-radius: 3px;
+            font-size: 12px;
+            cursor: pointer;
+            margin-left: 36%;
+            font-size: larger;
+
+        }
+
+        .logo {
+            margin-left: 4%;
+        }
+
+        .cont-logo {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+        }
+
+        .caixatexto {
+            margin-left: 10%;
+        }
+
+        .text1 {
+            font-size: 2rem;
+            margin-bottom: 1rem;
+        }
+
+        .text2 {
+            font-size: 1.2rem;
+            margin-right: 70%;
+        }
+
+        .divisa {
+            margin: 0;
+            padding: 0;
+            border: 0;
+        }
+
+        .titulo-meio {
+            margin-left: 35%;
+        }
+
+        .conteiner-img img {
+            width: 7%;
+            margin-left: 10%;
+
+        }
+
+        .texto-meio2 {
+            font-size: x-large;
+            display: flex;
+            margin-top: 100px;
+            margin-right: 20%;
+        }
+
+        .img-meio2,
+        .text-meio2 {
+            margin-left: 10%;
+            flex: 1;
+        }
+
+        .botao {
+            background-color: #cbf9ff;
+            padding: 20px 25px;
+            margin-top: 80px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="topo">
+        <header class="cabecalho">
+            <section class="cont-logo">
+                <img class="logo" src="https://logospng.org/download/ype/logo-ype-4096.png" alt="ype logo" width="10%">
+
+                <nav class="navbar">
+
+                    <a href="#"> Conheça Nossas instalações </a>
+
+                    <a href="#"> Industria </a>
+
+                    <a href="#"> Nosso Processo </a>
+
+                    <a href="#"> Orçamento </a>
+            </section>
+            <div class="caixatexto">
+                <h1 class="text1"> Quem somos </h1>
+                <p class="text2">Fundada em 1950, iniciou suas atividades com a fabricação de sabão em barra caseiro em
+                    um pequeno
+                    galpão, no centro da cidade de Amparo, interior de São Paulo. Inspirada na filosofia de seu
+                    fundador, Waldyr Beira, não parou de crescer. A empresa se desenvolveu, ganhou o mercado nacional e
+                    também passou a exportar para outros países.</p>
+            </div>
+
+            </nav>
+    </div>
+
+
+    </header>
+
+    <hr class="divisa">
+
+    <div class="meio">
+
+        <div class="texto-meio">
+            <h1 class="titulo-meio">O que eu faço de melhor</h1>
+        </div>
+        <div class="conteiner-img">
+
+            <img src="https://cdn.awsli.com.br/800x800/460/460481/produto/108450810050ee49d72.jpg" alt=""> DESINFETANTES
+            <img src="https://superprix.vteximg.com.br/arquivos/ids/202341-600-600/Desinfetante-Ype-Antibacteriano-500ml-Pulv..jpg?v=637684299570430000"
+                alt=""> ANTI GORDURANTE
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQswNEawzKnFZIVRpCGOpuJCTXclgsDbtyt-Q&usqp=CAU"
+                alt=""> AMACIANTES
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR4f4GnrQHERtI3Keu8JuYi806Cievyv_sTCA&usqp=CAU"
+                alt=""> DETERGENTES
+        </div>
+        <div class="texto-meio2">
+
+            <section class="img-meio2"> <img
+                    src="https://www.ype.ind.br/wp-content/uploads/2023/03/png_flutuante_21032023.png" alt=""></section>
+
+            <section class="text-meio2">
+                <h1> Nossa Nova Linha </h1>
+                <p>Seja para limpeza diária ou a faxina pesada, a Ypê tem um produto ideal para você. Dentro de cada
+                    embalagem tem qualidade, praticidade e alto poder de limpeza. Cinco Versões. Perfumação Duradoura.
+                    Produto Delicado.</p>
+
+                <button class="botao"> Conheça nossos produtos</button>
+
+            </section>
+
+
+
+        </div>
+
+
+
+    </div>
+
+
+</body>
+
+</html>
